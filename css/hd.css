@@ -28,3 +28,30 @@ p {
   font-family: "Source Sans Pro";
   animation: fadeIn 2s ease-out, chill 2s 2s, fadeOut 2s 4s;
 }
+.emblem {
+  position: absolute;
+  left: 3%;
+  right: 98%;
+  top: 0;
+  bottom: 100%;
+  margin: 0 auto;
+  width: 95px;
+  height: 165px;
+  border-radius: 30%;
+  font-weight: bold;
+  color: rgba(43,77,57,.9);
+  animation: spinZ 20s linear infinite;
+  text-align: center;
+    font-family:monospace;
+}
+.emblem span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  font-size: 5vh;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
