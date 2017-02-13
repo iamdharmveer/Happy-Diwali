@@ -276,7 +276,7 @@ function animate() {
       var randomColor = Math.floor(Math.random() * colors.length);
       var color = colors[randomColor];
 
-      cannonballs.push(new Cannonball(canvas.width / 2, canvas.height / 2, 2, 2, 4, color.cannonballColor, cannon, color.particleColors));
+      cannonballs.push(new Cannonball(canvas.width / 4, canvas.height / 2, 2, 2, 4, color.cannonballColor, cannon, color.particleColors));
     }
 
     if (introTimer > 30) {
